@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./weatherapp.css">
+</head>
+<body>
+   <img src="/image/imageweather4.jpg" alt="" width="1350px" height="100%">
+    <div class="container" >
+
+        <div class="searchh">
+         <input type="search" id="search" class="search" placeholder="Please enter your City">
+         <button id="searchbutton" class="sb" onclick="btn()">Search</button>
+        </div> 
+     <div class="result">
+        <div class="res">
+            <div class="img"><img id="image" alt="" ></div>
+            <div class="decity">
+                <div class="city two" id="city"></div> 
+                <div class="description" id="des">Cloudy</div>
+            </div>
+        </div>
+              <div class="temp two">Temperature: </div><div id="temp"></div>  
+                <div class="pressure two">Pressure: </div><div id="pressure"></div>
+         </div>
+       
+     </div>
+<script src="./weatherapp.js"></script>
+</body>
+</html>
